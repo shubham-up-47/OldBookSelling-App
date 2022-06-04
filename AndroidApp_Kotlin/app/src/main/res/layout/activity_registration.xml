@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#404040"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/registrationName"
+        android:layout_width="match_parent"
+        android:hint="Enter User Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableRight="@android:drawable/ic_menu_my_calendar"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/registrationMobile"
+        android:layout_width="match_parent"
+        android:hint="Enter Mobile Number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableRight="@android:drawable/stat_sys_phone_call"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/registrationPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:layout_margin="20dp"
+        android:drawableRight="@android:drawable/ic_lock_idle_lock"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registrationPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:layout_margin="20dp"
+        android:drawableRight="@android:drawable/ic_lock_idle_lock"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registrationAddress"
+        android:layout_width="match_parent"
+        android:hint="Enter Address"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableRight="@android:drawable/ic_menu_mapmode"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/registrationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp" />
+
+</LinearLayout>
