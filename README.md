@@ -7,10 +7,10 @@ This is an E-Commerce android App, implemented using Kotlin. It is an app to pur
 
 - Implemented using Kotlin
 - Login page, Registration page, Book Category page, Book Item page, Total Bill page, Payment page
-- Select qty of books, then confirm to generate bill
+- Select quantity of books, then confirm to generate bill
   
   
-# Backend
+# Backend/Database
 
 - My SQL Database managed using PHP files.
 - Data stores user details, item details, images of items etc which are accessed with the help of PHP files
