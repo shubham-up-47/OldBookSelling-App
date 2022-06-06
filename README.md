@@ -13,7 +13,7 @@ This is an E-Commerce android App, implemented using Kotlin. It is an app to pur
 # Backend/Database
 
 - My SQL Database managed using PHP files
-- Data stores user details, item details, images of items etc which are accessed with the help of PHP files
+- Database stores user details, item details, images of items etc which are accessed with the help of PHP files
 - login, adding new user, get Category list, get Item list & their prices, image loading, bill generation 
  
  
