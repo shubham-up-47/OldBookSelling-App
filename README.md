@@ -1,6 +1,6 @@
 # OldBookSelling App
 
-This is an E-Commerce android App, implemented using Kotlin. It is an app to purchase old books at affortable price. In this, we can select the books of respective categories & their quantity, then bill will be generated & then we can pay
+This is an E-Commerce android App, implemented using Kotlin. It is an app to purchase old books at affordable price. In this, we can select the books of respective categories & their quantity, then bill will be generated & then we can pay
 
  
 # Frontend
