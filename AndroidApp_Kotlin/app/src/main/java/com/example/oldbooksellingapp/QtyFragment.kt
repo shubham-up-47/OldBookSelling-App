@@ -26,7 +26,7 @@ class QtyFragment : android.app.DialogFragment() {
         var btn = v.findViewById<Button>(R.id.btnQty)      // btn = Button widget
 
         btn.setOnClickListener {
-            var url = "http://192.168.1.100/OldBookSellingApp/add_tempOrder.php?mobile=" + UserInfo.mobile + "&itemid=" + UserInfo.itemId + "&qty=" + et.text.toString()
+            var url = "http://10.2.90.3/OldBookSellingApp/add_tempOrder.php?mobile=" + UserInfo.mobile + "&itemid=" + UserInfo.itemId + "&qty=" + et.text.toString()
             var req:RequestQueue = Volley.newRequestQueue(activity)
             var reqStr = StringRequest( Request.Method.GET, url,
 

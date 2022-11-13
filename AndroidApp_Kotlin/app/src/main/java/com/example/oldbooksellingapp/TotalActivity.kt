@@ -24,7 +24,7 @@ class TotalActivity : AppCompatActivity()
 
         var bno: String? = intent.getStringExtra("bno")
 
-        var url = "http://192.168.1.100/OldBookSellingApp/get_total.php?bill_no=" + bno
+        var url = "http://10.2.90.3/OldBookSellingApp/get_total.php?bill_no=" + bno
 
         var req: RequestQueue = Volley.newRequestQueue(this)
         var reqStr = StringRequest(Request.Method.GET, url,
@@ -40,6 +40,13 @@ class TotalActivity : AppCompatActivity()
         )
 
         req.add(reqStr)
+
+        paypalButton.setOnClickListener {
+            Toast.makeText(this, "Payment Successful", Toast.LENGTH_LONG).show()
+
+            val i = Intent(this, ConfirmActivity::class.java)
+            startActivity(i)
+        }
 /*
         paypalButton.setOnClickListener {
 

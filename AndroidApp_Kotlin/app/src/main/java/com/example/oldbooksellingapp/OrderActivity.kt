@@ -22,7 +22,7 @@ class OrderActivity : AppCompatActivity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order)
 
-        var url = "http://192.168.1.100/OldBookSellingApp/get_tempOrder.php?mobile=" + UserInfo.mobile
+        var url = "http://10.2.90.3/OldBookSellingApp/get_tempOrder.php?mobile=" + UserInfo.mobile
 
         var list = ArrayList<String>()
         var req: RequestQueue = Volley.newRequestQueue(this)
@@ -60,7 +60,7 @@ class OrderActivity : AppCompatActivity()
         }
 
         if(item.itemId==R.id.itemCancel){
-            var url = "http://192.168.1.100/OldBookSellingApp/cancel_tempOrder.php?mobile=" + UserInfo.mobile
+            var url = "http://10.2.90.3/OldBookSellingApp/cancel_tempOrder.php?mobile=" + UserInfo.mobile
 
             var req:RequestQueue = Volley.newRequestQueue(this)
             var reqStr = StringRequest( Request.Method.GET, url,
@@ -79,7 +79,7 @@ class OrderActivity : AppCompatActivity()
         }
 
         if(item.itemId==R.id.itemConfirm){
-            var url = "http://192.168.1.100/OldBookSellingApp/confirm_tempOrder.php?mobile=" + UserInfo.mobile
+            var url = "http://10.2.90.3/OldBookSellingApp/confirm_tempOrder.php?mobile=" + UserInfo.mobile
 
             var req:RequestQueue = Volley.newRequestQueue(this)
             var reqStr = StringRequest( Request.Method.GET, url,
@@ -100,7 +100,6 @@ class OrderActivity : AppCompatActivity()
 
         return super.onOptionsItemSelected(item)
     }
-
 }
 
 
