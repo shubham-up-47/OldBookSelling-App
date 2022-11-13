@@ -3,62 +3,70 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#404040"
+    android:background="@drawable/login"
     android:orientation="vertical"
+    android:paddingTop="150dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
 
     <EditText
         android:id="@+id/loginMobile"
         android:layout_width="match_parent"
-        android:hint="Enter Mobile Number"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:hint="  Enter Mobile Number"
+        android:background="@drawable/whitebox"
+        android:textColor="@color/black"
+        android:textColorHint="#5A5959"
+        android:layout_height="50dp"
         android:layout_margin="20dp"
-        android:drawableRight="@android:drawable/stat_sys_phone_call"
+        android:drawableRight="@android:drawable/star_off"
         android:ems="10"
         android:inputType="phone" />
 
     <EditText
         android:id="@+id/loginPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
-        android:drawableRight="@android:drawable/ic_lock_idle_lock"
-        android:hint="Enter Password"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableRight="@android:drawable/ic_secure"
+        android:hint="  Enter Password"
         android:layout_margin="20dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:background="@drawable/whitebox"
+        android:textColor="@color/black"
+        android:textColorHint="#5A5959"
         android:inputType="numberPassword" />
 
     <TextView
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
+        android:background="@drawable/redbox"
         android:gravity="center"
         android:text="Login"
+        android:textStyle="bold"
         android:textColor="@color/white"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
         android:padding="10dp"
-        android:textSize="22sp" />
+        android:textSize="23sp" />
 
     <TextView
         android:id="@+id/signupButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
+        android:background="@drawable/redbox"
         android:gravity="center"
         android:text="Sign Up"
+        android:textStyle="bold"
         android:textColor="@color/white"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:padding="10dp"
-       android:layout_marginTop="20dp"
-        android:textSize="22sp" />
-
+        android:layout_marginTop="20dp"
+        android:textSize="23sp" />
 
 </LinearLayout>

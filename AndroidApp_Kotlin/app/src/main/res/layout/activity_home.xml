@@ -3,13 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#404040"
+    android:background="@drawable/booklist"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Select Category"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_height="120dp">
+    </TextView>
+
+
     <ListView
         android:id="@+id/homeCategory"
+        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </LinearLayout>

@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable-v24/question_option.xml" value="0.11481481481481481" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable-v24/redBlock.xml" value="0.178125" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable-v24/redbox.xml" value="0.178125" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable/brownbox.xml" value="0.178125" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable/greenbox.xml" value="0.178125" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable/redbox.xml" value="0.1" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/drawable/whitebox.xml" value="0.1" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_confirm.xml" value="0.16666666666666666" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_home.xml" value="0.13999999999999999" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_item.xml" value="0.165625" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_order.xml" value="0.165625" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_registration.xml" value="0.13333333333333333" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_total.xml" value="0.14666666666666667" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/fragment_qty.xml" value="0.22" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/item_row.xml" value="0.22" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/layout/my_textview.xml" value="0.165625" />
+        <entry key="..\:/#Coding Ninjas/App Dev/Projects/OldBookSellingApp/#OldBookSellingApp_Kotlin/app/src/main/res/menu/my_menu.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/Jaysun/OneDrive - National Institute of Technology/Desktop/Downloads/#Project4 OldBookSellingApp/OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_confirm.xml" value="0.1578125" />
         <entry key="..\:/Users/Jaysun/OneDrive - National Institute of Technology/Desktop/Downloads/#Project4 OldBookSellingApp/OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_home.xml" value="0.1287037037037037" />
         <entry key="..\:/Users/Jaysun/OneDrive - National Institute of Technology/Desktop/Downloads/#Project4 OldBookSellingApp/OldBookSellingApp_Kotlin/app/src/main/res/layout/activity_item.xml" value="0.1" />

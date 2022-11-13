@@ -22,7 +22,7 @@ class RegistrationActivity : AppCompatActivity() {
 
             if(registrationPassword1.text.toString().equals(registrationPassword2.text.toString()))
             {
-                var url = "http://192.168.1.100/OldBookSellingApp/add_user.php?mobile=" + registrationMobile.text.toString() +
+                var url = "http://10.2.90.3/OldBookSellingApp/add_user.php?mobile=" + registrationMobile.text.toString() +
                 "&password=" + registrationPassword1.text.toString() +
                 "&name=" + registrationName.text.toString() + "&address=" + registrationAddress.text.toString()
 

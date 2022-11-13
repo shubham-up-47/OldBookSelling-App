@@ -17,7 +17,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val url = "http://192.168.1.100/OldBookSellingApp/get_category.php"
+        val url = "http://10.2.90.3/OldBookSellingApp/get_category.php"
         var list = ArrayList<String>()
         var req:RequestQueue = Volley.newRequestQueue(this)
         var jar = JsonArrayRequest( Request.Method.GET, url,null,

@@ -10,15 +10,24 @@
 
     <EditText
         android:id="@+id/etQty"
-        android:hint="Enter Qty"
+        android:hint="  Enter Qty"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/whitebox"
+        android:textSize="20sp"
         android:inputType="number" />
 
     <Button
         android:id="@+id/btnQty"
+        android:background="@drawable/redbox"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
         android:text="Add" />
+
 </LinearLayout>
